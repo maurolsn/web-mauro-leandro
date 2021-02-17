@@ -1,0 +1,62 @@
+import { Meta, Preview, Story } from "@storybook/addon-docs/blocks";
+import GlobalStyle from "./GlobalStyle";
+
+<Meta title="Styles/GlobalStyle" component={GlobalStyle} />
+
+# Global Style
+
+CSS resets and base stylesheets definition.
+
+```jsx
+const App = () => (
+  <>
+    <GlobalStyle />
+    <OtherComponents />
+  </>
+);
+```
+
+## Typography
+
+Basic global typoghraphy.
+
+### Headings
+
+All HTML headings, `<h1>` through `<h6>`, are available;
+
+<Preview>
+  <Story name="Headings">
+    <div>
+      <h1>Title 1</h1>
+      <h2>Title 2</h2>
+      <h3>Title 3</h3>
+      <h4>Title 4</h4>
+      <h5>Title 5</h5>
+      <h6>Title 6</h6>
+    </div>
+  </Story>
+</Preview>
+
+### Paragraph
+
+Styling for comon text elements:
+
+<Preview>
+  <Story name="Paragraph">
+    <div>
+      <p>The quick brown gox jumps over the lazy dog.</p>
+      <p>
+        <strong>The quick brown gox jumps over the lazy dog.</strong>
+      </p>
+      <p>
+        <em>The quick brown gox jumps over the lazy dog.</em>
+      </p>
+      <p>
+        <u>The quick brown gox jumps over the lazy dog.</u>
+      </p>
+      <p>
+        <s>The quick brown gox jumps over the lazy dog.</s>
+      </p>
+    </div>
+  </Story>
+</Preview>
