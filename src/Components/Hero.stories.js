@@ -5,6 +5,7 @@ import { text } from "@storybook/addon-knobs";
 import Hero from "./Hero";
 import Code1 from "../stories/assets/code.jpg";
 import Heading from "./Heading";
+import Button from "./Button";
 
 export default {
   title: "Components/Hero",
@@ -17,7 +18,7 @@ export const usage = () => (
       <h1>
         {text(
           "Title",
-          "A alegria que se tem em pensar e aprenderfaz-nos pensar e aprender ainda mais. (Aristóteles)"
+          "A alegria que se tem em pensar e aprender faz-nos pensar e aprender ainda mais. (Aristóteles)"
         )}
       </h1>
       <p>{text("subtitle", "Mauro Leandro")}</p>
@@ -27,5 +28,8 @@ export const usage = () => (
       <li>ReactJS</li>
       <li>NodeJS</li>
     </ul>
+    <Button variant="outlined" color="primary">
+      Know more
+    </Button>
   </Hero>
 );

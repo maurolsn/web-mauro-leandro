@@ -57,7 +57,6 @@ const Hero = ({ image, children }) => (
   <Root image={image} data-testid="hero">
     <Container>
       <Content>{children}</Content>
-      <button>Saiba Mais</button>
     </Container>
   </Root>
 );
