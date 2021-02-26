@@ -16,10 +16,8 @@ export const usage = () => (
   <Hero image={Code1}>
     <Heading>
       <h1>
-        {text(
-          "Title",
-          "A alegria que se tem em pensar e aprender faz-nos pensar e aprender ainda mais. (Aristóteles)"
-        )}
+        A alegria que se tem em <strong>pensar e aprender</strong> faz-nos
+        pensar e aprender ainda mais. (Aristóteles)
       </h1>
       <p>{text("subtitle", "Mauro Leandro")}</p>
     </Heading>
