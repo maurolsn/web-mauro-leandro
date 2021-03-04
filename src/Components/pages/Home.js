@@ -3,15 +3,18 @@ import React from "react";
 import { FaAccessibleIcon, FaCar, FaKey, FaMapMarkedAlt } from "react-icons/fa";
 
 import Hero from "Components/molecules/Hero";
-import Code2 from "Components/assets/code2.jpg";
+import bambu from "Components/assets/bambu.jpg";
 import Heading from "Components/atoms/Heading";
 import Button from "Components/atoms/Button";
 import Grid from "Components/atoms/Grid";
 import Feature from "Components/atoms/Feature";
 import Section from "Components/molecules/Section";
+import programing from "Components/assets/programing.mp4";
+import Footer from "Components/organisms/Footer";
+
 const Home = () => (
   <>
-    <Hero image={Code2}>
+    <Hero image={bambu}>
       <Heading>
         <h1>
           A alegria que se tem em <strong>pensar e aprender</strong> faz-nos
@@ -45,6 +48,39 @@ const Home = () => (
         </Feature>
       </Grid>
     </Section>
+
+    <Section inverse>
+      <Heading>
+        <h2>Conheça nossos serviços</h2>
+      </Heading>
+    </Section>
+
+    <Section>
+      <Grid md={2}>
+        <div>
+          <Heading>
+            <h2>Mauro Leandro</h2>
+          </Heading>
+          <p>
+            Amor por Tecnologia e inovações. Amor por desafios e novas
+            descobertas!
+          </p>
+          <div>
+            <Button color="primary">Saiba Mais</Button>
+          </div>
+        </div>
+        <div>
+          <video src={programing} width="100%" autoPlay loop />
+        </div>
+      </Grid>
+    </Section>
+
+    <Section inverse>
+      <Heading>
+        <h2>Dúvidas recorrentes</h2>
+      </Heading>
+    </Section>
+    <Footer />
   </>
 );
 
