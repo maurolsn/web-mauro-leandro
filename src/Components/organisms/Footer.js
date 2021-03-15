@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import { FaPhone, FaLinkedinIn, FaInstagram, FaMailBulk } from "react-icons/fa";
 
 import Container from "Components/atoms/Container";
@@ -98,8 +98,8 @@ const Footer = () => (
   </Root>
 );
 
-Footer.defaultProps = {};
+// Footer.defaultProps = {};
 
-Footer.propTypes = {};
+// Footer.propTypes = {};
 
 export default Footer;

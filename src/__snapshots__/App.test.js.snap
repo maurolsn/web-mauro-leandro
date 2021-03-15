@@ -1,0 +1,1023 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the App 1`] = `
+.c1 {
+  width: 100%;
+  padding: 0 8px;
+}
+
+.c0 {
+  color: #fff;
+  padding: 100px 0;
+  background: url(bambu.jpg),rgba(0,0,0,0.6);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+
+.c2 {
+  display: inline-block;
+}
+
+.c2 p,
+.c2 li {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.c2 ul {
+  list-style: none;
+  padding: 0%;
+}
+
+.c2 li:before {
+  content: "\\2713\\0020";
+  color: #ffc107;
+}
+
+.c3 h1,
+.c3 h2,
+.c3 h3,
+.c3 h4,
+.c3 h5,
+.c3 h6 {
+  position: relative;
+  margin-bottom: 25px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.c3 h1::after,
+.c3 h2::after,
+.c3 h3::after,
+.c3 h4::after,
+.c3 h5::after,
+.c3 h6::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  background-color: #ffc107;
+  height: 5px;
+  width: 70px;
+}
+
+.c3 h1 {
+  padding-bottom: 25px;
+}
+
+.c20 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 36px;
+  cursor: pointer;
+  background-color: #ffc107;
+  border: 2px solid #ffc107;
+  color: #212121;
+}
+
+.c20:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.c20:hover:enabled {
+  background-color: #c79100;
+  border-color: #c79100;
+}
+
+.c4 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 36px;
+  cursor: pointer;
+  background-color: #ffc107;
+  border: 2px solid #ffc107;
+  color: #212121;
+  background-color: transparent;
+  color: #ffc107;
+}
+
+.c4:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.c4:hover:enabled {
+  background-color: #c79100;
+  border-color: #c79100;
+}
+
+.c4:hover:enabled {
+  background-color: transparent;
+  color: #c79100;
+}
+
+.c18 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 36px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  border: 2px solid #e0e0e0;
+  color: #212121;
+  background-color: transparent;
+  color: #212121;
+}
+
+.c18:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.c18:hover:enabled {
+  background-color: #5a6268;
+  border-color: #5a6268;
+}
+
+.c18:hover:enabled {
+  background-color: transparent;
+  color: #5a6268;
+}
+
+.c15 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 36px;
+  cursor: pointer;
+  background-color: #ffc107;
+  border: 2px solid #ffc107;
+  color: #212121;
+  background-color: transparent;
+  border-color: transparent;
+  color: #ffc107;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c15:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.c15:hover:enabled {
+  background-color: #c79100;
+  border-color: #c79100;
+}
+
+.c15:hover:enabled {
+  background-color: transparent;
+  border-color: transparent;
+  color: #c79100;
+}
+
+.c6 {
+  display: grid;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr;
+}
+
+.c11 {
+  display: grid;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr;
+}
+
+.c19 {
+  display: grid;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr;
+}
+
+.c8 {
+  display: inline-block;
+  width: 116px;
+  height: 116px;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.c8:hover {
+  border: 1px solid #ffc107;
+}
+
+.c8:hover > * {
+  color: #fff;
+  background-color: #ffc107;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid #e9e9e9;
+  border-radius: 50%;
+  font-size: 32px;
+  width: 100%;
+  height: 100%;
+  color: #ffc107;
+}
+
+.c7 {
+  text-align: center;
+}
+
+.c7 h5 {
+  margin: 16px 0;
+  min-height: 3.12rem;
+}
+
+.c7 p {
+  margin: 0;
+}
+
+.c5 {
+  margin: 40px 0;
+}
+
+.c5 h2 {
+  margin-top: 0;
+}
+
+.c10 {
+  margin: 40px 0;
+  background-color: #f7f7f7;
+}
+
+.c10 h2 {
+  margin-top: 0;
+}
+
+.c23 {
+  background-color: #2a2a2a;
+  color: #aaa;
+  padding: 40px 0;
+}
+
+.c23 h6 {
+  color: #fff;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.c25 {
+  margin-right: 8px;
+}
+
+.c24 {
+  color: #ffc107;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c24:hover {
+  color: #c79100;
+}
+
+.c14 {
+  padding: 16px;
+}
+
+.c14 h6 {
+  margin-top: 0;
+}
+
+.c13 {
+  background-image: url(CardImage.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 270px;
+}
+
+.c16 {
+  background-image: url(cssproduct.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 270px;
+}
+
+.c12 {
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.c17 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.c21 {
+  border: 1px SOLID #e0e0e0e0;
+  border-left: 5px solid #ffc107;
+  background-color: #fff;
+}
+
+.c21:first-child {
+  margin-top: 0;
+}
+
+.c21:last-child {
+  margin-bottom: 0;
+}
+
+.c22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.c22 h6 {
+  margin: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c22 svg {
+  font-size: 1.25rem;
+}
+
+@media (min-width:576px) {
+  .c1 {
+    padding: 0 16px;
+  }
+}
+
+@media (min-width:992px) {
+  .c1 {
+    width: 1140px;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width:576px) {
+  .c6 {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (min-width:768px) {
+  .c6 {
+    grid-template-columns: repeat(4,1fr);
+  }
+}
+
+@media (min-width:768px) {
+  .c11 {
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+@media (min-width:768px) {
+  .c19 {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (min-width:992px) {
+  .c7 h5 {
+    min-height: 3.9rem;
+  }
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:992px) {
+
+}
+
+<body>
+  <div>
+    <div
+      class="c0"
+      data-testid="hero"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        >
+          <div
+            class="c3"
+          >
+            <h1>
+              A alegria que se tem em 
+              <strong>
+                pensar e aprender
+              </strong>
+               faz-nos pensar e aprender ainda mais.
+              <br />
+               
+              <strong>
+                (Aristóteles)
+              </strong>
+            </h1>
+          </div>
+          <ul>
+            <li>
+              JavaScript
+            </li>
+            <li>
+              ReactJS
+            </li>
+            <li>
+              NodeJS
+            </li>
+          </ul>
+          <button
+            class="c4"
+            color="primary"
+            type="button"
+          >
+            Know more
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+          >
+            <div
+              class="c8"
+            >
+              <div
+                class="c9"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M499.99 176h-59.87l-16.64-41.6C406.38 91.63 365.57 64 319.5 64h-127c-46.06 0-86.88 27.63-103.99 70.4L71.87 176H12.01C4.2 176-1.53 183.34.37 190.91l6 24C7.7 220.25 12.5 224 18.01 224h20.07C24.65 235.73 16 252.78 16 272v48c0 16.12 6.16 30.67 16 41.93V416c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32v-32h256v32c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32v-54.07c9.84-11.25 16-25.8 16-41.93v-48c0-19.22-8.65-36.27-22.07-48H494c5.51 0 10.31-3.75 11.64-9.09l6-24c1.89-7.57-3.84-14.91-11.65-14.91zm-352.06-17.83c7.29-18.22 24.94-30.17 44.57-30.17h127c19.63 0 37.28 11.95 44.57 30.17L384 208H128l19.93-49.83zM96 319.8c-19.2 0-32-12.76-32-31.9S76.8 256 96 256s48 28.71 48 47.85-28.8 15.95-48 15.95zm320 0c-19.2 0-48 3.19-48-15.95S396.8 256 416 256s32 12.76 32 31.9-12.8 31.9-32 31.9z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h5>
+              Bigger and Better Always
+            </h5>
+            <div>
+              <p>
+                I Love Java Script
+              </p>
+            </div>
+          </div>
+          <div
+            class="c7"
+          >
+            <div
+              class="c8"
+            >
+              <div
+                class="c9"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M512 176.001C512 273.203 433.202 352 336 352c-11.22 0-22.19-1.062-32.827-3.069l-24.012 27.014A23.999 23.999 0 0 1 261.223 384H224v40c0 13.255-10.745 24-24 24h-40v40c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24v-78.059c0-6.365 2.529-12.47 7.029-16.971l161.802-161.802C163.108 213.814 160 195.271 160 176 160 78.798 238.797.001 335.999 0 433.488-.001 512 78.511 512 176.001zM336 128c0 26.51 21.49 48 48 48s48-21.49 48-48-21.49-48-48-48-48 21.49-48 48z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h5>
+              In your hands is the key to success
+            </h5>
+            <div>
+              <p>
+                I Love Java Script
+              </p>
+            </div>
+          </div>
+          <div
+            class="c7"
+          >
+            <div
+              class="c8"
+            >
+              <div
+                class="c9"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 576 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h5>
+              Great location
+            </h5>
+            <div>
+              <p>
+                I Love Java Script
+              </p>
+            </div>
+          </div>
+          <div
+            class="c7"
+          >
+            <div
+              class="c8"
+            >
+              <div
+                class="c9"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 448 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M423.9 255.8L411 413.1c-3.3 40.7-63.9 35.1-60.6-4.9l10-122.5-41.1 2.3c10.1 20.7 15.8 43.9 15.8 68.5 0 41.2-16.1 78.7-42.3 106.5l-39.3-39.3c57.9-63.7 13.1-167.2-74-167.2-25.9 0-49.5 9.9-67.2 26L73 243.2c22-20.7 50.1-35.1 81.4-40.2l75.3-85.7-42.6-24.8-51.6 46c-30 26.8-70.6-18.5-40.5-45.4l68-60.7c9.8-8.8 24.1-10.2 35.5-3.6 0 0 139.3 80.9 139.5 81.1 16.2 10.1 20.7 36 6.1 52.6L285.7 229l106.1-5.9c18.5-1.1 33.6 14.4 32.1 32.7zm-64.9-154c28.1 0 50.9-22.8 50.9-50.9C409.9 22.8 387.1 0 359 0c-28.1 0-50.9 22.8-50.9 50.9 0 28.1 22.8 50.9 50.9 50.9zM179.6 456.5c-80.6 0-127.4-90.6-82.7-156.1l-39.7-39.7C36.4 287 24 320.3 24 356.4c0 130.7 150.7 201.4 251.4 122.5l-39.7-39.7c-16 10.9-35.3 17.3-56.1 17.3z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h5>
+              Accessibility
+            </h5>
+            <div>
+              <p>
+                I Love Java Script
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c10"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="c3"
+        >
+          <h2>
+            Conheça nossos serviços
+          </h2>
+          <div
+            class="c11"
+          >
+            <div
+              class="c12"
+            >
+              <div
+                class="c13"
+              />
+              <div
+                class="c14"
+              >
+                <div
+                  class="c3"
+                >
+                  <h6>
+                    JavaScript
+                  </h6>
+                </div>
+                <p>
+                  JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web
+                </p>
+                <div>
+                  <button
+                    class="c15"
+                    color="primary"
+                    type="button"
+                  >
+                    Konw More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c12"
+            >
+              <div
+                class="c16"
+              />
+              <div
+                class="c14"
+              >
+                <div
+                  class="c3"
+                >
+                  <h6>
+                    CSS
+                  </h6>
+                </div>
+                <p>
+                  Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web.
+                </p>
+                <div>
+                  <button
+                    class="c15"
+                    color="primary"
+                    type="button"
+                  >
+                    Konw More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c12"
+            >
+              <div
+                class="c13"
+              />
+              <div
+                class="c14"
+              >
+                <div
+                  class="c3"
+                >
+                  <h6>
+                    JavaScript2
+                  </h6>
+                </div>
+                <p>
+                  JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web
+                </p>
+                <div>
+                  <button
+                    class="c15"
+                    color="primary"
+                    type="button"
+                  >
+                    Konw More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c17"
+          >
+            <button
+              class="c18"
+              color="default"
+              type="button"
+            >
+              Full list of services
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="c19"
+        >
+          <div>
+            <div
+              class="c3"
+            >
+              <h2>
+                Mauro Leandro
+              </h2>
+            </div>
+            <p>
+              Amor por Tecnologia e inovações. Amor por desafios e novas descobertas!
+            </p>
+            <div>
+              <button
+                class="c20"
+                color="primary"
+                type="button"
+              >
+                Saiba Mais
+              </button>
+            </div>
+          </div>
+          <div>
+            <video
+              autoplay=""
+              loop=""
+              src="programing.mp4"
+              width="100%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c10"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="c3"
+        >
+          <h2>
+            Dúvidas recorrentes
+          </h2>
+        </div>
+        <div
+          class="c21"
+        >
+          <div
+            class="c22"
+            role="button"
+          >
+            <h6>
+              Como posso se tornar um Dev?
+            </h6>
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="c21"
+        >
+          <div
+            class="c22"
+            role="button"
+          >
+            <h6>
+              O que é necessário para ser um Dev?
+            </h6>
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="c21"
+        >
+          <div
+            class="c22"
+            role="button"
+          >
+            <h6>
+              Por onde começar?
+            </h6>
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="c23"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="c11"
+        >
+          <div>
+            <div
+              class="c3"
+            >
+              <h6>
+                Mauro Leandro
+              </h6>
+            </div>
+            <p>
+              Front-end developer, passionate about technology and innovations.
+            </p>
+          </div>
+          <div>
+            <div
+              class="c3"
+            >
+              <h6>
+                Contatos
+              </h6>
+            </div>
+            <p>
+              <a
+                class="c24"
+                href="tel:73999338990"
+              >
+                <span
+                  class="c25"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"
+                    />
+                  </svg>
+                </span>
+                (73) 9 9933-8990
+              </a>
+            </p>
+            <p>
+              <a
+                class="c24"
+                href="mailto:mauroleandrosn@gmail.com"
+              >
+                <span
+                  class="c25"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 576 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M160 448c-25.6 0-51.2-22.4-64-32-64-44.8-83.2-60.8-96-70.4V480c0 17.67 14.33 32 32 32h256c17.67 0 32-14.33 32-32V345.6c-12.8 9.6-32 25.6-96 70.4-12.8 9.6-38.4 32-64 32zm128-192H32c-17.67 0-32 14.33-32 32v16c25.6 19.2 22.4 19.2 115.2 86.4 9.6 6.4 28.8 25.6 44.8 25.6s35.2-19.2 44.8-22.4c92.8-67.2 89.6-67.2 115.2-86.4V288c0-17.67-14.33-32-32-32zm256-96H224c-17.67 0-32 14.33-32 32v32h96c33.21 0 60.59 25.42 63.71 57.82l.29-.22V416h192c17.67 0 32-14.33 32-32V192c0-17.67-14.33-32-32-32zm-32 128h-64v-64h64v64zm-352-96c0-35.29 28.71-64 64-64h224V32c0-17.67-14.33-32-32-32H96C78.33 0 64 14.33 64 32v192h96v-32z"
+                    />
+                  </svg>
+                </span>
+                mauroleandrosn@gmail.com
+              </a>
+            </p>
+          </div>
+          <div>
+            <div
+              class="c3"
+            >
+              <h6>
+                Redes Sociais
+              </h6>
+            </div>
+            <p>
+              <a
+                class="c24"
+                href="https://www.linkedin.com/in/mauroleandro/"
+                target="_blank"
+              >
+                <span
+                  class="c25"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 448 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                    />
+                  </svg>
+                </span>
+                Linkedin
+              </a>
+            </p>
+            <p>
+              <a
+                class="c24"
+                href="https://www.instagram.com/leosantosoficial_2020/"
+                target="_blank"
+              >
+                <span
+                  class="c25"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 448 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                    />
+                  </svg>
+                </span>
+                Instagran
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+`;

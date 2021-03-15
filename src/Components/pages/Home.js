@@ -12,6 +12,7 @@ import Section from "Components/molecules/Section";
 import programing from "Components/assets/programing.mp4";
 import Footer from "Components/organisms/Footer";
 import ProductGrid from "Components/organisms/ProductGrid";
+import Accordion, { AcordionGroup } from "Components/atoms/Accordion";
 
 import JavaScriptProduct from "Components/assets/CardImage.jpg";
 import CssProduct from "Components/assets/cssproduct.jpg";
@@ -122,6 +123,22 @@ const Home = () => (
       <Heading>
         <h2>Dúvidas recorrentes</h2>
       </Heading>
+      <AcordionGroup>
+        <Accordion title="Como posso se tornar um Dev?">
+          Não é preciso necessáriamente ter talento para ser um Desenvolvedor, o
+          mais importante é ter muita dedicação e amor.
+        </Accordion>
+
+        <Accordion title="O que é necessário para ser um Dev?">
+          Não é preciso necessáriamente ter talento para ser um Desenvolvedor, o
+          mais importante é ter muita dedicação e amor.
+        </Accordion>
+
+        <Accordion title="Por onde começar?">
+          Não é preciso necessáriamente ter talento para ser um Desenvolvedor, o
+          mais importante é ter muita dedicação e amor.
+        </Accordion>
+      </AcordionGroup>
     </Section>
     <Footer />
   </>
