@@ -8,7 +8,7 @@ const AcordionGroup = ({ children }) => {
     React.cloneElement(child, {
       open: childIndex === index,
       onChange: () => {
-        if (childIndex == index) {
+        if (childIndex === index) {
           setInddex(-1);
         } else {
           setInddex(childIndex);
