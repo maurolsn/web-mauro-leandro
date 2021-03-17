@@ -316,6 +316,7 @@ exports[`render the App 1`] = `
 .c12 {
   background-color: #fff;
   border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0.125);
   overflow: hidden;
 }
 
@@ -370,8 +371,7 @@ exports[`render the App 1`] = `
 
 @media (min-width:992px) {
   .c1 {
-    width: 1140px;
-    padding: 0;
+    max-width: 1140px;
     margin: 0 auto;
   }
 }
@@ -403,6 +403,18 @@ exports[`render the App 1`] = `
 @media (min-width:992px) {
   .c7 h5 {
     min-height: 3.9rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c5 {
+    padding: 60px 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c10 {
+    padding: 60px 0;
   }
 }
 
@@ -638,93 +650,99 @@ exports[`render the App 1`] = `
           <div
             class="c11"
           >
-            <div
-              class="c12"
-            >
+            <div>
               <div
-                class="c13"
-              />
-              <div
-                class="c14"
+                class="c12"
               >
                 <div
-                  class="c3"
+                  class="c13"
+                />
+                <div
+                  class="c14"
                 >
-                  <h6>
-                    JavaScript
-                  </h6>
-                </div>
-                <p>
-                  JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web
-                </p>
-                <div>
-                  <button
-                    class="c15"
-                    color="primary"
-                    type="button"
+                  <div
+                    class="c3"
                   >
-                    Konw More
-                  </button>
+                    <h6>
+                      JavaScript
+                    </h6>
+                  </div>
+                  <p>
+                    JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web
+                  </p>
+                  <div>
+                    <button
+                      class="c15"
+                      color="primary"
+                      type="button"
+                    >
+                      Konw More
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-            <div
-              class="c12"
-            >
+            <div>
               <div
-                class="c16"
-              />
-              <div
-                class="c14"
+                class="c12"
               >
                 <div
-                  class="c3"
+                  class="c16"
+                />
+                <div
+                  class="c14"
                 >
-                  <h6>
-                    CSS
-                  </h6>
-                </div>
-                <p>
-                  Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web.
-                </p>
-                <div>
-                  <button
-                    class="c15"
-                    color="primary"
-                    type="button"
+                  <div
+                    class="c3"
                   >
-                    Konw More
-                  </button>
+                    <h6>
+                      CSS
+                    </h6>
+                  </div>
+                  <p>
+                    Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web.
+                  </p>
+                  <div>
+                    <button
+                      class="c15"
+                      color="primary"
+                      type="button"
+                    >
+                      Konw More
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-            <div
-              class="c12"
-            >
+            <div>
               <div
-                class="c13"
-              />
-              <div
-                class="c14"
+                class="c12"
               >
                 <div
-                  class="c3"
+                  class="c13"
+                />
+                <div
+                  class="c14"
                 >
-                  <h6>
-                    JavaScript2
-                  </h6>
-                </div>
-                <p>
-                  JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web
-                </p>
-                <div>
-                  <button
-                    class="c15"
-                    color="primary"
-                    type="button"
+                  <div
+                    class="c3"
                   >
-                    Konw More
-                  </button>
+                    <h6>
+                      JavaScript2
+                    </h6>
+                  </div>
+                  <p>
+                    JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web
+                  </p>
+                  <div>
+                    <button
+                      class="c15"
+                      color="primary"
+                      type="button"
+                    >
+                      Konw More
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
