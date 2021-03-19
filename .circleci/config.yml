@@ -17,7 +17,7 @@ jobs:
           pkg-manager: npm
       - run: npm run lint
       - run: npm run cover
-      - codecov:
+      - codecov/upload:
           file: coverage/*.json
 
 workflows:
