@@ -9,8 +9,7 @@ jobs:
       - image: cicleci/node:14.16.0-browsers
     steps:
       - checkout
-      - node/install:
-        install-npm: true
+      - node/install-npm
       - run: node --version
       - run: npm --version
 
