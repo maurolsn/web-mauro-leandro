@@ -2,6 +2,7 @@ version: 2.1
 
 orbs:
   node: circleci/node@4.2.0
+  codecov: codecov/codecov@1.1.3
 
 jobs:
   tests:
@@ -13,9 +14,11 @@ jobs:
       - run: node --version
       - run: npm --version
       - node/install-packages:
-        pkg-manager: npm
+          pkg-manager: npm
       - run: npm run lint
       - run: npm run cover
+      - codecov:
+          file: coverage/*.json
 
 workflows:
   ci:

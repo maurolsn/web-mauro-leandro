@@ -1,15 +1,9 @@
-/* eslint-disable jest/valid-title */
 import React from "react";
-import { ThemeProvider } from "styled-components";
-import { render } from "test-utils";
-
+import { render } from "@testing-library/react";
 import App from "./App";
 
-test("render the App", () => {
-  render(
-    <App>
-      <ThemeProvider />
-    </App>
-  );
-  expect(document.body).toMatchSnapshot();
+test("renders call to action", () => {
+  const { getByText } = render(<App />);
+  const linkElement = getByText(/Know more/i);
+  expect(linkElement).toBeInTheDocument();
 });
