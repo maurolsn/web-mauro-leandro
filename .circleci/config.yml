@@ -14,7 +14,6 @@ jobs:
       - run: npm --version
       - node/install-packages:
         pkg-manager: npm
-      - run: npm run audit fix
       - run: npm run lint
       - run: npm run cover
 
