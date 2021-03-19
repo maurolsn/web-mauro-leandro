@@ -6,7 +6,7 @@ orbs:
 jobs:
   setup:
     docker:
-      - image: cicleci/node:14.16.0-browsers
+      - image: circleci/node:14.16.0-browsers
     steps:
       - checkout
       - node/install-npm
