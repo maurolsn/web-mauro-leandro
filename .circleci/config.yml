@@ -32,7 +32,7 @@ workflows:
   ci:
     jobs:
       - tests
-      - versioning:
+      - versioning
         filters:
           branches:
             ignore: master
