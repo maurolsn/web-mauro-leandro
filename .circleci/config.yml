@@ -32,9 +32,9 @@ workflows:
   ci:
     jobs:
       - tests
-      - versioning
-        filters:
-          branches:
-            ignore: master
-          tags:
-            ignore: /.*/
+      - versioning:
+          filters:
+            branches:
+              ignore: master
+            tags:
+              ignore: /.*/
