@@ -29,7 +29,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic",
+    "chromatic": "npx chromatic --exit-zero-on-changes",
     "lint": "eslint src/**/*.js"
   },
   "eslintConfig": {
