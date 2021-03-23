@@ -19,8 +19,22 @@ jobs:
       - run: npm run cover
       - codecov/upload:
           file: coverage/*.json
+  versioning:
+    docker:
+      - image: circleci/node:12.18.3
+    steps:
+      - checkout
+      - run:
+          name: Check package version
+          command: node scripts/check-version maurolsn web-mauro-leandro
 
 workflows:
   ci:
     jobs:
       - tests
+      - versioning:
+          filters:
+            branches:
+              ignore: master
+            tags:
+              ignore: /.*/
