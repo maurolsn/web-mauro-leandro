@@ -19,6 +19,9 @@ jobs:
       - run: npm run cover
       - codecov/upload:
           file: coverage/*.json
+      - run:
+          name: Publish to Chromatic
+          command: npx chromatic --project-token=${CHROMATIC_TOKEN}
   versioning:
     docker:
       - image: circleci/node:12.18.3

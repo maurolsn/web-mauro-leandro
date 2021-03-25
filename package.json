@@ -29,8 +29,8 @@
     "cover": "npm test -- --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic --project-token 0ae776fe15d3",
+    "build-storybook": "build-storybook -s public -o build/docs",
+    "chromatic": "npx chromatic --exit-zero-on-changes",
     "lint": "eslint src/**/*.js"
   },
   "eslintConfig": {
