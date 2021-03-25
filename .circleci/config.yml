@@ -21,7 +21,7 @@ jobs:
           file: coverage/*.json
       - run:
           name: Publish to Chromatic
-          command: npx chromatic --project-token=${CHROMATIC_TOKEN} --exit-zero-on-changes
+          command: npx chromatic --exit-zero-on-changes --project-token=${CHROMATIC_TOKEN}
   versioning:
     docker:
       - image: circleci/node:12.18.3
