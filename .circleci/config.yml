@@ -10,18 +10,18 @@ jobs:
       - image: circleci/node:14.16.0-browsers
     steps:
       - checkout
-      - node/install-npm
+      - node/install-yarn
       - run: node --version
-      - run: npm --version
+      - run: yarn --version
       - node/install-packages:
-          pkg-manager: npm
-      - run: npm run lint
-      - run: npm run cover
+          pkg-manager: yarn
+      - run: yarn run lint
+      - run: yarn run cover
       - codecov/upload:
           file: coverage/*.json
       - run:
           name: Publish to Chromatic
-          command: npx chromatic --exit-zero-on-changes --project-token=${CHROMATIC_TOKEN}
+          command: yarn chromatic --exit-zero-on-changes --project-token=${CHROMATIC_TOKEN}
   versioning:
     docker:
       - image: circleci/node:12.18.3
