@@ -8,386 +8,383 @@ function SvgAbout(props) {
       width="1em"
       height="1em"
       viewBox="0 0 1144 617.32"
-      aria-labelledby="aboutImgTitle"
-      role="img"
       {...props}
     >
-      <title id="aboutImgTitle">Um garoto programando em um notebook</title>
       <path
         d="M1144 396.23a181.92 181.92 0 01-6.85 49.6 180.06 180.06 0 01-19.27 44.28c0 50.1-33.82 93.4-82.91 114a167.3 167.3 0 01-64.73 12.8H217.17c-40.25 0-77.55-10.86-108.14-29.36a185.76 185.76 0 01-24.83-17.89c-34-29.22-55.08-69.6-55.08-114.2A180.5 180.5 0 010 356.74c0-73.36 43.39-136.44 105.55-164.29a174.52 174.52 0 0125.51-9.12q4.63-1.26 9.36-2.26a175.39 175.39 0 0125.51-3.5q4.65-.29 9.35-.33H177c3.46 0 6.89.12 10.3.32l1.12-1.9q2.06-3.44 4.22-6.81 3.9-6.14 8.18-12.1 4.48-6.29 9.35-12.38l.83-1q2.76-3.44 5.64-6.8 9-10.49 19-20.35C307.75 45.54 420.72.04 547.72.04c98.82 0 189.15 27.55 258.34 73.07A174.18 174.18 0 01892 50.52c97.74 0 177 80.37 177 179.51a184.9 184.9 0 01-1 18.78 180 180 0 0176 147.42z"
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.1}
       />
       <path
         d="M235.66 116.18v20.35h-19q8.93-10.48 19-20.35zM245.02 111.02h25.51v25.51h-25.51zM279.88 111.02h25.51v25.51h-25.51zM314.75 111.02h25.51v25.51h-25.51zM349.61 111.02h25.51v25.51h-25.51zM384.48 111.02h25.51v25.51h-25.51z"
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
       />
-      <path fill="#ffc107" d="M419.35 111.02h25.51v25.51h-25.51z" />
+      <path fill="currentColor" d="M419.35 111.02h25.51v25.51h-25.51z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M454.21 111.02h25.51v25.51h-25.51zM489.08 111.02h25.51v25.51h-25.51zM523.94 111.02h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M558.81 111.02h25.51v25.51h-25.51z" />
+      <path fill="currentColor" d="M558.81 111.02h25.51v25.51h-25.51z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M593.68 111.02h25.51v25.51h-25.51zM628.54 111.02h25.51v25.51h-25.51zM663.41 111.02h25.51v25.51h-25.51zM698.28 111.02h25.51v25.51h-25.51zM733.14 111.02h25.51v25.51h-25.51zM768.01 111.02h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         d="M802.87 111.02h25.51v25.51h-25.51zM837.74 111.02h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M872.61 111.02h25.51v25.51h-25.51zM907.47 111.02h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         d="M942.34 111.02h25.51v25.51h-25.51zM977.2 111.02h25.51v25.51H977.2zM200.8 156.74v12.1h-8.18q3.9-6.18 8.18-12.1z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M210.15 143.33h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M245.02 143.33h25.51v25.51h-25.51z" />
+      <path fill="currentColor" d="M245.02 143.33h25.51v25.51h-25.51z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M279.88 143.33h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.7}
         d="M314.75 143.33h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M349.61 143.33h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.4}
         d="M384.48 143.33h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M419.35 143.33h25.51v25.51h-25.51z" />
+      <path fill="currentColor" d="M419.35 143.33h25.51v25.51h-25.51z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.4}
         d="M454.21 143.33h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M489.08 143.33h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.4}
         d="M523.94 143.33h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M558.81 143.33h25.51v25.51h-25.51z" />
+      <path fill="currentColor" d="M558.81 143.33h25.51v25.51h-25.51z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.4}
         d="M593.68 143.33h25.51v25.51h-25.51zM628.54 143.33h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M663.41 143.33h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.4}
         d="M698.28 143.33h25.51v25.51h-25.51zM733.14 143.33h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M768.01 143.33h25.51v25.51h-25.51zM802.87 143.33h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.4}
         d="M837.74 143.33h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M872.61 143.33h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         d="M907.47 143.33h25.51v25.51h-25.51zM942.34 143.33h25.51v25.51h-25.51zM977.2 143.33h25.51v25.51H977.2z"
       />
       <path
         d="M131.06 183.33v17.83h-25.51v-8.71a174.52 174.52 0 0125.51-9.12zM165.93 177.57v23.59h-25.51v-20.09l25.51-3.5z"
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
       />
-      <path fill="#ffc107" d="M175.28 175.65h25.51v25.51h-25.51z" />
+      <path fill="currentColor" d="M175.28 175.65h25.51v25.51h-25.51z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.7}
         d="M210.15 175.65h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M245.02 175.65h25.51v25.51h-25.51z" />
+      <path fill="currentColor" d="M245.02 175.65h25.51v25.51h-25.51z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.7}
         d="M279.88 175.65h25.51v25.51h-25.51zM314.75 175.65h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M349.61 175.65h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.4}
         d="M384.48 175.65h25.51v25.51h-25.51zM419.35 175.65h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M454.21 175.65h25.51v25.51h-25.51z" />
+      <path fill="currentColor" d="M454.21 175.65h25.51v25.51h-25.51z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M489.08 175.65h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.4}
         d="M523.94 175.65h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M558.81 175.65h25.51v25.51h-25.51z" />
+      <path fill="currentColor" d="M558.81 175.65h25.51v25.51h-25.51z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M593.68 175.65h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.4}
         d="M628.54 175.65h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M663.41 175.65h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M698.28 175.65h25.51v25.51h-25.51z" />
+      <path fill="currentColor" d="M698.28 175.65h25.51v25.51h-25.51z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M733.14 175.65h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.7}
         d="M768.01 175.65h25.51v25.51h-25.51zM802.87 175.65h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.4}
         d="M837.74 175.65h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M872.61 175.65h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         d="M907.47 175.65h25.51v25.51h-25.51zM942.34 175.65h25.51v25.51h-25.51zM977.2 175.65h25.51v25.51H977.2z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M105.55 207.96h25.51v25.51h-25.51zM140.42 207.96h25.51v25.51h-25.51zM175.28 207.96h25.51v25.51h-25.51zM210.15 207.96h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M245.02 207.96h25.51v25.51h-25.51z" />
+      <path fill="currentColor" d="M245.02 207.96h25.51v25.51h-25.51z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.7}
         d="M279.88 207.96h25.51v25.51h-25.51zM314.75 207.96h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M349.61 207.96h25.51v25.51h-25.51zM384.48 207.96h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.4}
         d="M419.35 207.96h25.51v25.51h-25.51zM454.21 207.96h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M489.08 207.96h25.51v25.51h-25.51z" />
+      <path fill="currentColor" d="M489.08 207.96h25.51v25.51h-25.51z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M523.94 207.96h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.4}
         d="M558.81 207.96h25.51v25.51h-25.51zM593.68 207.96h25.51v25.51h-25.51zM628.54 207.96h25.51v25.51h-25.51zM663.41 207.96h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M698.28 207.96h25.51v25.51h-25.51zM733.14 207.96h25.51v25.51h-25.51zM768.01 207.96h25.51v25.51h-25.51zM802.87 207.96h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.7}
         d="M837.74 207.96h25.51v25.51h-25.51zM872.61 207.96h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.4}
         d="M907.47 207.96h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M942.34 207.96h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M977.2 207.96h25.51v25.51H977.2z" />
+      <path fill="currentColor" d="M977.2 207.96h25.51v25.51H977.2z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M105.55 240.28h25.51v25.51h-25.51zM140.42 240.28h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.4}
         d="M175.28 240.28h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M210.15 240.28h25.51v25.51h-25.51zM245.02 240.28h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.7}
         d="M279.88 240.28h25.51v25.51h-25.51zM314.75 240.28h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M349.61 240.28h25.51v25.51h-25.51zM384.48 240.28h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.4}
         d="M419.35 240.28h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M454.21 240.28h25.51v25.51h-25.51z" />
+      <path fill="currentColor" d="M454.21 240.28h25.51v25.51h-25.51z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M489.08 240.28h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         d="M523.94 240.28h25.51v25.51h-25.51zM558.81 240.28h25.51v25.51h-25.51zM593.68 240.28h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M628.54 240.28h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M663.41 240.28h25.51v25.51h-25.51z" />
+      <path fill="currentColor" d="M663.41 240.28h25.51v25.51h-25.51z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M698.28 240.28h25.51v25.51h-25.51zM733.14 240.28h25.51v25.51h-25.51zM768.01 240.28h25.51v25.51h-25.51zM802.87 240.28h25.51v25.51h-25.51zM837.74 240.28h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.7}
         d="M872.61 240.28h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M907.47 240.28h25.51v25.51h-25.51zM942.34 240.28h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M977.2 240.28h25.51v25.51H977.2z" />
+      <path fill="currentColor" d="M977.2 240.28h25.51v25.51H977.2z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M105.55 272.59h25.51v25.51h-25.51zM140.42 272.59h25.51v25.51h-25.51zM175.28 272.59h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.4}
         d="M210.15 272.59h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M245.02 272.59h25.51v25.51h-25.51zM279.88 272.59h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.7}
         d="M314.75 272.59h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M349.61 272.59h25.51v25.51h-25.51zM384.48 272.59h25.51v25.51h-25.51zM419.35 272.59h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M454.21 272.59h25.51v25.51h-25.51z" />
+      <path fill="currentColor" d="M454.21 272.59h25.51v25.51h-25.51z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M489.08 272.59h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         d="M523.94 272.59h25.51v25.51h-25.51zM558.81 272.59h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M593.68 272.59h25.51v25.51h-25.51zM628.54 272.59h25.51v25.51h-25.51zM663.41 272.59h25.51v25.51h-25.51zM698.28 272.59h25.51v25.51h-25.51zM733.14 272.59h25.51v25.51h-25.51zM768.01 272.59h25.51v25.51h-25.51zM802.87 272.59h25.51v25.51h-25.51zM837.74 272.59h25.51v25.51h-25.51zM872.61 272.59h25.51v25.51h-25.51zM907.47 272.59h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.4}
         d="M942.34 272.59h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M977.2 272.59h25.51v25.51H977.2z" />
+      <path fill="currentColor" d="M977.2 272.59h25.51v25.51H977.2z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.7}
         d="M105.55 304.91h25.51v25.51h-25.51zM140.42 304.91h25.51v25.51h-25.51zM175.28 304.91h25.51v25.51h-25.51zM210.15 304.91h25.51v25.51h-25.51zM245.02 304.91h25.51v25.51h-25.51z"
       />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M279.88 304.91h25.51v25.51h-25.51zM314.75 304.91h25.51v25.51h-25.51zM349.61 304.91h25.51v25.51h-25.51zM384.48 304.91h25.51v25.51h-25.51zM419.35 304.91h25.51v25.51h-25.51zM454.21 304.91h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M489.08 304.91h25.51v25.51h-25.51z" />
+      <path fill="currentColor" d="M489.08 304.91h25.51v25.51h-25.51z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M523.94 304.91h25.51v25.51h-25.51zM558.81 304.91h25.51v25.51h-25.51zM593.68 304.91h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M628.54 304.91h25.51v25.51h-25.51z" />
+      <path fill="currentColor" d="M628.54 304.91h25.51v25.51h-25.51z" />
       <path
-        fill="#ffc107"
+        fill="currentColor"
         opacity={0.2}
         d="M663.41 304.91h25.51v25.51h-25.51zM698.28 304.91h25.51v25.51h-25.51zM733.14 304.91h25.51v25.51h-25.51zM768.01 304.91h25.51v25.51h-25.51zM802.87 304.91h25.51v25.51h-25.51zM837.74 304.91h25.51v25.51h-25.51zM872.61 304.91h25.51v25.51h-25.51zM907.47 304.91h25.51v25.51h-25.51zM942.34 304.91h25.51v25.51h-25.51z"
       />
-      <path fill="#ffc107" d="M977.2 304.91h25.51v25.51H977.2z" />
+      <path fill="currentColor" d="M977.2 304.91h25.51v25.51H977.2z" />
       <circle cx={734.52} cy={363.89} r={34.87} fill="#767d9f" />
       <path
         d="M732.71 319.53q5.22 22.78 8.86 45.9c.73 4.58 1.38 9.41-.28 13.74-1.39 3.61-4.22 6.43-6.44 9.59s-3.9 7.21-2.55 10.83 5.29 5.6 9.05 6.62c10.76 2.9 22.23.79 32.94-2.35a53.29 53.29 0 0013.81-5.72c4.54-2.88 8.26-6.88 11.68-11 15.61-18.93 25.83-41.65 35.45-64.23a39.12 39.12 0 01-33.11-13.34c-3.94-4.63-6.83-11.08-4.61-16.74-6.51 3.57-14.24 3.81-21.25 6.25a75.49 75.49 0 00-12.5 6.15q-7.18 4.15-14.28 8.46c-5.41 3.26-10.48 6.16-16.77 5.84z"
@@ -450,10 +447,10 @@ function SvgAbout(props) {
         d="M809.2 337.97s5.67 16.86-11.06 23.95l-2.14 3.74L806.48 376s12.92-23.57 11.52-31.94c0 0-2-8.5-8.8-6.09z"
         fill="#fff"
       />
-      <circle cx={790.2} cy={388.99} r={25.94} fill="#ffc107" />
+      <circle cx={790.2} cy={388.99} r={25.94} fill="currentColor" />
       <path
         d="M818.13 347.89l-4.12-6.8-6-.85c1.28-22.39-4.53-29.06-4.53-29.06l-1.35-.13-5.88-.57L785.19 299v-3.26c15.54 1.85 24.13 9.23 28.77 17.88 8.2 15.18 4.17 34.27 4.17 34.27z"
-        fill="#ffc107"
+        fill="currentColor"
       />
       <path
         d="M802.18 306.93v4.12l-5.88-.57L785.24 299s17.11 3.83 16.94 7.93zM818.13 347.89l-4.12-6.8v-27.43c8.15 15.14 4.12 34.23 4.12 34.23z"
@@ -471,7 +468,7 @@ function SvgAbout(props) {
       />
       <path
         d="M733 374.66c7.27 12.59 16.19 21 9.29 25s-27 2-34.27-10.6-.67-30 6.23-34 11.47 6.98 18.75 19.6z"
-        fill="#ffc107"
+        fill="currentColor"
       />
       <path
         d="M797.73 283.96c0 40.23-27.53 79-67.76 79a72.85 72.85 0 010-145.7c40.23.04 67.76 26.46 67.76 66.7z"

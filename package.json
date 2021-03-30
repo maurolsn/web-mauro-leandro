@@ -34,7 +34,7 @@
     "build-storybook": "build-storybook -s public -o build/docs",
     "chromatic": "chromatic --exit-zero-on-changes",
     "lint": "eslint src/**/*.js",
-    "svg": "svgr --icon --replace-attr-values '#FFC107=currentColor' -d src/draws/"
+    "svg": "svgr --icon --replace-attr-values \"#ffc107=currentColor\" -d src/draws/"
   },
   "eslintConfig": {
     "extends": [
