@@ -117,7 +117,14 @@ const Home = () => (
           </div>
         </div>
         <div>
-          <video src={programing} width="100%" autoPlay loop muted />
+          <video
+            src={programing}
+            width="100%"
+            autoPlay
+            playsInline
+            loop
+            muted
+          />
         </div>
       </Grid>
     </Section>
