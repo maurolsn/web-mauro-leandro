@@ -1,17 +1,18 @@
 import React from "react";
 import { addDecorator, addParameters } from "@storybook/react";
+import { MemoryRouter as Router } from "react-router-dom";
 
 import GlobalStyle from "../src/styles/GlobalStyle";
 import ThemeProvider, { ThemeName } from "../src/styles/ThemeProvider";
 import { select } from "@storybook/addon-knobs";
 
 addDecorator((storyFn) => (
-  <>
+  <Router>
     <ThemeProvider theme={select("Theme", ThemeName, ThemeName.light)}>
       <GlobalStyle />
       {storyFn()}
     </ThemeProvider>
-  </>
+  </Router>
 ));
 
 const viewports = {

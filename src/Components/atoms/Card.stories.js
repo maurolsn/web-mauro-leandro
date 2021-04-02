@@ -1,7 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
 
-import Card, { CardBody, CardMedia } from "./Card";
+import Card, { CardBody, CardMedia, CardMediaDescription } from "./Card";
 import Heading from "./Heading";
 import Button from "./Button";
 import Placeholderimage from "Components/assets/CardImage.jpg";
@@ -9,7 +9,7 @@ import Placeholderimage from "Components/assets/CardImage.jpg";
 export default {
   title: "Components/Atoms/Card",
   component: Card,
-  subcomponents: { CardBody, CardMedia },
+  subcomponents: { CardBody, CardMedia, CardMediaDescription },
 };
 
 export const usage = () => (
@@ -52,5 +52,14 @@ export const withMedia = () => (
         </Button>
       </div>
     </CardBody>
+  </Card>
+);
+export const onlyCardMedia = () => (
+  <Card>
+    <CardMedia image={Placeholderimage}>
+      <CardMediaDescription>
+        <h5>Descrição da imagem</h5>
+      </CardMediaDescription>
+    </CardMedia>
   </Card>
 );
