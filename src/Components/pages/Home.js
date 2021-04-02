@@ -1,6 +1,7 @@
 import React from "react";
 //import PropTypes from "prop-types";
 import { FaAccessibleIcon, FaCar, FaKey, FaMapMarkedAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 import Hero from "Components/molecules/Hero";
 import bambu from "Components/assets/bambu.jpg";
@@ -110,7 +111,9 @@ const Home = () => (
             descobertas!
           </p>
           <div>
-            <Button color="primary">Saiba Mais</Button>
+            <Button as={Link} to="/sobre" color="primary">
+              Saiba Mais
+            </Button>
           </div>
         </div>
         <div>
