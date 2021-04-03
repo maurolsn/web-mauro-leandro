@@ -15,6 +15,7 @@ import Callout, {
   CalloutMedia,
 } from "Components/atoms/Callout";
 import BreadCrumb from "Components/atoms/BreadCrumb";
+import ProductType from "types/ProductTypes";
 
 const PinnedList = styled.ul`
   list-style: none;
@@ -34,17 +35,17 @@ const PinnedItem = styled.li`
   }
 `;
 
-const ProductDetail = () => (
+const ProductDetail = ({ product }) => (
   <>
     <Hero image={bambu}>
       <Heading>
-        <h1>Nome do serviço</h1>
+        <h1>{product.title}</h1>
       </Heading>
       <BreadCrumb
         items={[
           { label: "início", link: "/" },
           { label: "Serviços" },
-          { label: "Nome do Serviço" },
+          { label: product.title },
         ]}
       />
     </Hero>
@@ -124,5 +125,13 @@ const ProductDetail = () => (
     <Footer />
   </>
 );
+
+ProductDetail.defaultProps = {
+  product: [],
+};
+
+ProductDetail.propTypes = {
+  products: ProductType,
+};
 
 export default ProductDetail;
