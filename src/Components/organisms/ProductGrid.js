@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-import ProductType from "types/ProductTypes";
+import ProductType from "models/types/ProductTypes";
 import Grid from "Components/atoms/Grid";
 import Card, { CardBody, CardMedia } from "Components/atoms/Card";
 import Heading from "Components/atoms/Heading";

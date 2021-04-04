@@ -15,7 +15,7 @@ import Callout, {
   CalloutMedia,
 } from "Components/atoms/Callout";
 import BreadCrumb from "Components/atoms/BreadCrumb";
-import ProductType from "types/ProductTypes";
+import ProductType from "models/types/ProductTypes";
 
 const PinnedList = styled.ul`
   list-style: none;
