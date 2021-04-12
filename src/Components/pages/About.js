@@ -1,8 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
 import styled from "styled-components";
-
-import { useScrollToTop } from "hooks/scroll";
 
 import Hero from "Components/molecules/Hero";
 import Heading from "Components/atoms/Heading";
@@ -57,141 +54,130 @@ const instructors = [
   },
 ];
 
-const About = () => {
-  useScrollToTop();
-
-  return (
-    <>
-      <Hero image={bambu}>
-        <Heading>
-          <h1>
-            Auto Escola <strong>Nardine</strong>
-          </h1>
-        </Heading>
-        <BreadCrumb
-          items={[{ label: "início", link: "/" }, { label: "Sobre" }]}
-        />
-      </Hero>
-      <Section>
-        <Grid md={2}>
-          <div>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
-            </p>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
-            </p>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
-            </p>
-            <ul>
-              <li>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout
-              </li>
-              <li>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout
-              </li>
-              <li>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout
-              </li>
-              <li>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout
-              </li>
-              <li>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout
-              </li>
-            </ul>
-          </div>
-          <div>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </p>
-            <center>
-              <ImageContainer>
-                <AboutImage />
-              </ImageContainer>
-            </center>
-          </div>
-        </Grid>
-      </Section>
-      <Section>
-        <Grid md={2}>
-          <div>
-            <h4>Missão</h4>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.{" "}
-            </p>
-          </div>
-          <div>
-            <h4>Visão</h4>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.{" "}
-            </p>
-          </div>
-        </Grid>
-      </Section>
-      <Section>
-        <Heading>
-          <h2>Conheça nossos professores</h2>
-        </Heading>
-        <Grid sm={2} md={3} lg={4}>
-          {instructors.map((instructor) => (
-            <Card key={instructor.id}>
-              <CardMedia image={instructor.avatar}>
-                <CardMediaDescription>
-                  <h5>{instructor.name}</h5>
-                </CardMediaDescription>
-              </CardMedia>
-            </Card>
-          ))}
-        </Grid>
-      </Section>
-      <Footer />
-    </>
-  );
-};
-
-About.defaultProps = {};
-
-About.propTypes = {};
+const About = () => (
+  <>
+    <Hero image={bambu}>
+      <Heading>
+        <h1>
+          Auto Escola <strong>Nardine</strong>
+        </h1>
+      </Heading>
+      <BreadCrumb
+        items={[{ label: "início", link: "/" }, { label: "Sobre" }]}
+      />
+    </Hero>
+    <Section>
+      <Grid md={2}>
+        <div>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+          <ul>
+            <li>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout
+            </li>
+            <li>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout
+            </li>
+            <li>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout
+            </li>
+            <li>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout
+            </li>
+            <li>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <center>
+            <ImageContainer>
+              <AboutImage />
+            </ImageContainer>
+          </center>
+        </div>
+      </Grid>
+    </Section>
+    <Section>
+      <Grid md={2}>
+        <div>
+          <h4>Missão</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.{" "}
+          </p>
+        </div>
+        <div>
+          <h4>Visão</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.{" "}
+          </p>
+        </div>
+      </Grid>
+    </Section>
+    <Section>
+      <Heading>
+        <h2>Conheça nossos professores</h2>
+      </Heading>
+      <Grid sm={2} md={3} lg={4}>
+        {instructors.map((instructor) => (
+          <Card key={instructor.id}>
+            <CardMedia image={instructor.avatar}>
+              <CardMediaDescription>
+                <h5>{instructor.name}</h5>
+              </CardMediaDescription>
+            </CardMedia>
+          </Card>
+        ))}
+      </Grid>
+    </Section>
+    <Footer />
+  </>
+);
 
 export default About;

@@ -1,5 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
+import { buildProductList } from "models/builders/products";
 
 import Home from "./Home";
 
@@ -8,4 +9,6 @@ export default {
   component: Home,
 };
 
-export const usage = () => <Home />;
+const products = buildProductList(8);
+
+export const usage = () => <Home products={products} />;

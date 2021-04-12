@@ -1,8 +1,9 @@
 import React from "react";
-//import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 import { FaAccessibleIcon, FaCar, FaKey, FaMapMarkedAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+import ProductType from "models/types/ProductTypes";
 import Hero from "Components/molecules/Hero";
 import bambu from "Components/assets/bambu.jpg";
 import Heading from "Components/atoms/Heading";
@@ -15,48 +16,7 @@ import Footer from "Components/organisms/Footer";
 import ProductGrid from "Components/organisms/ProductGrid";
 import Accordion, { AcordionGroup } from "Components/atoms/Accordion";
 
-import JavaScriptProduct from "Components/assets/CardImage.jpg";
-import CssProduct from "Components/assets/cssproduct.jpg";
-
-const products = [
-  {
-    id: 1,
-    title: "JavaScript",
-    summary:
-      "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web",
-    image: JavaScriptProduct,
-  },
-  {
-    id: 2,
-    title: "CSS",
-    summary:
-      "Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web.",
-    image: CssProduct,
-  },
-  {
-    id: 3,
-    title: "JavaScript2",
-    summary:
-      "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web",
-    image: JavaScriptProduct,
-  },
-  {
-    id: 4,
-    title: "CSS2",
-    summary:
-      "Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web.",
-    image: CssProduct,
-  },
-  {
-    id: 5,
-    title: "CSS3",
-    summary:
-      "Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web.",
-    image: CssProduct,
-  },
-];
-
-const Home = () => (
+const Home = ({ products }) => (
   <>
     <Hero image={bambu}>
       <Heading>
@@ -154,8 +114,12 @@ const Home = () => (
   </>
 );
 
-Home.defaultProps = {};
+Home.defaultProps = {
+  products: [],
+};
 
-Home.propTypes = {};
+Home.propTypes = {
+  products: PropTypes.arrayOf(ProductType),
+};
 
 export default Home;
