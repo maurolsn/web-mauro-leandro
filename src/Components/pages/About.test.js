@@ -12,8 +12,3 @@ test("Renders About page", () => {
   render(<About />);
   expect(screen.getByText("Auto Escola")).toBeInTheDocument();
 });
-
-test("scroll to top in fist render", () => {
-  render(<About />);
-  expect(window.scrollTo).toBeCalledTimes(1);
-});
